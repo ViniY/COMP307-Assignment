@@ -1,0 +1,652 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09819639278557114 Adjusted=0.9105839416058394 Hits=450
+Tree 0:
+rlog(sqrt(x3) - cos(x5))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07214428857715431 Adjusted=0.9327102803738317 Hits=463
+Tree 0:
+rlog(x3) * rlog(x5)
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07214428857715431 Adjusted=0.9327102803738317 Hits=463
+Tree 0:
+rlog(x3) * rlog(x5)
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.050100200400801605 Adjusted=0.9522900763358779 Hits=474
+Tree 0:
+rlog(sqrt(x3) - cos(rlog(x2) * rlog(x5)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.050100200400801605 Adjusted=0.9522900763358779 Hits=474
+Tree 0:
+rlog(sqrt(x3) - cos(rlog(x2) * rlog(x5)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.04809619238476954 Adjusted=0.9541108986615678 Hits=475
+Tree 0:
+rlog(sin(rlog(x5)) - (cos(rlog(sqrt(x3) - cos(rlog(x5)))) - rlog(x3)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.04408817635270541 Adjusted=0.9577735124760076 Hits=477
+Tree 0:
+rlog(rlog(x3) - (cos(rlog(rlog(rlog(x3))) * rlog(rlog(x3))) - rlog(x5)))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.04208416833667335 Adjusted=0.9596153846153846 Hits=478
+Tree 0:
+rlog(rlog(x3) - (cos(x2 * rlog(rlog(x5))) - rlog(x5)))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.04008016032064128 Adjusted=0.9614643545279383 Hits=479
+Tree 0:
+rlog(rlog(x3) - (cos(x2 * rlog(rlog(x5))) - sin(rlog(x5))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.04008016032064128 Adjusted=0.9614643545279383 Hits=479
+Tree 0:
+rlog(sin(rlog(x5)) - (cos(rlog(x5) - (cos(rlog(x3) * cos(rlog(x3))) - rlog(x3))) - square(rlog(x2))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03807615230460922 Adjusted=0.9633204633204634 Hits=480
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog((rlog(x3) * rlog(x5)) * rlog(x5))) - rlog(x5))) - cos(rlog(x2) * rlog(x5)))) * rlog(rlog(x3))) - rlog(x3)))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03807615230460922 Adjusted=0.9633204633204634 Hits=480
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog((rlog(x3) * rlog(x5)) * rlog(x5))) - rlog(x5))) - cos(rlog(x2) * rlog(x5)))) * rlog(rlog(x3))) - rlog(x3)))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03406813627254509 Adjusted=0.9670542635658915 Hits=482
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x2))) - rlog(x3)))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03406813627254509 Adjusted=0.9670542635658915 Hits=482
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x2))) - rlog(x3)))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03406813627254509 Adjusted=0.9670542635658915 Hits=482
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x2))) - rlog(x3)))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03406813627254509 Adjusted=0.9670542635658915 Hits=482
+Tree 0:
+rlog((rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x2))) - rlog(x3)))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x3))) - rlog(x2)))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x3))) - rlog(x2)))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x3))) - rlog(x2)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x3))))) * ((sin(x5) - (x2 - rlog(x2))) * rlog(x3))) - rlog(x2)))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x2))) - cos(rlog(x2) * rlog(x5)))) * cos(sin(rlog(x5)) - (cos(rlog(rlog(x3) * rlog(x5))) - rlog(x2)))) - rlog(x2)))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * x3) * rlog(rlog(x3))) - rlog(x2)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(square(rlog(x3) * rlog(x5))) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog((rlog(x3) * rlog(x5)) * rlog(x5))) - rlog(x2))) - cos(cos(rlog(rlog(x3) - (rlog(x2) - sqrt(x3))) * (rlog(x5) * rlog(x5))) * rlog(x5)))) * cos(rlog(rlog(x5) * rlog(x5)))) - rlog(x2)))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(square(rlog(x3) * rlog(x5))) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog((rlog(x3) * rlog(x5)) * rlog(x5))) - rlog(x2))) - cos(cos(rlog(rlog(x3) - (rlog(x2) - sqrt(x3))) * (rlog(x5) * rlog(x5))) * rlog(x5)))) * cos(cos(rlog(x2) * rlog(x5)) * rlog(x5))) - rlog(x2)))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03206412825651302 Adjusted=0.9689320388349514 Hits=483
+Tree 0:
+rlog(square(square(rlog(x3) * rlog(x5))) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog((rlog(x3) * rlog(x5)) * rlog(x5))) - rlog(x2))) - cos(rlog(x2) * rlog(x5)))) * cos(cos(rlog(rlog(x5)) * rlog(x5)) * rlog(x5))) - rlog(x2)))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x2 - rlog(x2))) * rlog(x2))) - rlog(x2)))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x2 - rlog(x2))) * rlog(x2))) - rlog(x2)))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x2 - rlog(x2))) * rlog(x2))) - rlog(x2)))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(((rlog(x3) * rlog(x3)) * rlog(x5)) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog(rlog(x3) * rlog(x5))) - rlog(x5))) - cos(rlog(x2) * rlog(x2)))) * cos(rlog((cos(x5) / (cos(x3) * x5)) - (cos(rlog((rlog(x3) * rlog(x5)) * rlog(x5))) - rlog(x2))))) - rlog(x2)))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x2))) - cos(rlog(x2) * rlog((rlog(x3) * rlog(x5)) * rlog(x5))))) * cos(sin(rlog(x5)) - (cos(rlog(square(rlog(x3) * rlog(rlog(x5))))) - rlog(x2)))) - rlog(x2)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x2))) - cos(rlog(x2) * rlog(x5)))) * cos(sin(rlog(x5)) - (cos(rlog(square((rlog(x5) * rlog(rlog(x5))) * rlog(x5)))) - rlog(x2)))) - rlog(x2)))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.03006012024048096 Adjusted=0.9708171206225682 Hits=484
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x2))) - cos(rlog(x2) * rlog(x5)))) * cos(sin(rlog(x5)) - (cos(rlog(square(rlog(x3) * rlog(rlog(x5))))) - rlog(x2)))) - rlog(x2)))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.028056112224448898 Adjusted=0.9727095516569201 Hits=485
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.028056112224448898 Adjusted=0.9727095516569201 Hits=485
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5))) - cos(rlog(x2) * rlog(x2)))) * cos(rlog(x5))) - rlog(x2)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.028056112224448898 Adjusted=0.9727095516569201 Hits=485
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.028056112224448898 Adjusted=0.9727095516569201 Hits=485
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5))) - cos(rlog(x2) * rlog(x2)))) * cos(rlog(x5))) - rlog(x2)))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.028056112224448898 Adjusted=0.9727095516569201 Hits=485
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(rlog(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5))) - cos(rlog(x2) * rlog(x2)))) * cos(rlog(x5))) - rlog(x2)))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos(rlog(rlog(x3) - rlog(x2)) - cos(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5)))) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos(rlog(rlog(x3) - rlog(x2)) - cos(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5)))) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos(rlog(rlog(x3) - rlog(x2)) - cos(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5)))) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos(rlog(rlog(x3) - rlog(x2)) - cos(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5)))) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 51
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos(rlog(rlog(x3) - rlog(x2)) - cos(rlog(x3) - (cos(cos(rlog(x5) - x1)) - rlog(x5)))) - (x2 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 52
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.026052104208416832 Adjusted=0.9746093750000001 Hits=486
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x3))) * x4)) - rlog(x2)))
+
+Generation: 53
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 54
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 55
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 56
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 57
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 58
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 59
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 60
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 61
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 62
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 63
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 64
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - square(rlog(sin(x3) - (x5 - rlog(x2))) * rlog(x5)))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 65
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - square(rlog(x3) * rlog(x5)))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 66
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 67
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 68
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 69
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 70
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 71
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - (cos(rlog(rlog(x2))) - rlog(x5)))) * x4)) - rlog(x2)))
+
+Generation: 72
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 73
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 74
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 75
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 76
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 77
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 78
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Generation: 79
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((sin(x3) - (x5 - rlog(x2))) * x4)) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.02404809619238477 Adjusted=0.9765166340508806 Hits=487
+Tree 0:
+rlog(square(rlog(x3) * rlog(x5)) - (cos((rlog(x2) * rlog(cos((rlog(x2) * x3) * rlog(rlog(x2))))) * ((rlog(rlog(x3) - (cos(rlog(rlog(x2))) - rlog(x5))) - (x5 - rlog(x2))) * x4)) - rlog(x2)))
+
+
+Performance of Best Individual on Testing Set:
+
+Fitness: Standardized=0.715 Adjusted=0.5830903790087464 Hits=57

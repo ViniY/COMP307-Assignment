@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="EJML-core-0.27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/EJML-core-0.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/EJML-dense64-0.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/EJML-simple-0.27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/itext-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/jcommon-1.0.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/jfreechart-1.0.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/jzlib-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/pshecj.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/jzlib-1.0.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ecj/libraries/pshecj.jar!/" />
+    </SOURCES>
+  </library>
+</component>

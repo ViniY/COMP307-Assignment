@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/am/kings/home1/yuyong1/307A2/part2/ecj/jar/ecj.25.jar"/>
+	<classpathentry kind="output" path="ecj"/>
+</classpath>

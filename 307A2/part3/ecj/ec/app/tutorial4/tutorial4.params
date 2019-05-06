@@ -1,0 +1,138 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = ../../gp/koza/koza.params
+
+# the next four items are already defined in koza.params, but we
+# put them here to be clear.
+
+
+
+
+# We have one function set, of class GPFunctionSet
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+# We'll call the function set "f0".
+gp.fs.0.name = f0
+
+# We have five functions in the function set.  They are:
+gp.fs.0.size = 20
+
+
+gp.fs.0.func.0 = ec.app.tutorial4.X1
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1= ec.app.tutorial4.X2
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = ec.app.tutorial4.X3
+gp.fs.0.func.2.nc = nc0
+gp.fs.0.func.3 = ec.app.tutorial4.X4
+gp.fs.0.func.3.nc = nc0
+gp.fs.0.func.4 = ec.app.tutorial4.X5
+gp.fs.0.func.4.nc = nc0
+gp.fs.0.func.5 = ec.app.tutorial4.X6
+gp.fs.0.func.5.nc = nc0
+gp.fs.0.func.6 = ec.app.tutorial4.X7
+gp.fs.0.func.6.nc = nc0
+gp.fs.0.func.7 = ec.app.tutorial4.X8
+gp.fs.0.func.7.nc = nc0
+gp.fs.0.func.8 = ec.app.tutorial4.X9
+gp.fs.0.func.8.nc = nc0
+#gp.fs.0.func.9 = ec.app.tutorial4.Const
+#gp.fs.0.func.9.nc = nc0
+
+
+
+
+gp.fs.0.func.9 = ec.app.tutorial4.Protect_Div
+gp.fs.0.func.9.nc = nc2
+gp.fs.0.func.10= ec.app.tutorial4.Add
+gp.fs.0.func.10.nc = nc2
+gp.fs.0.func.11 = ec.app.tutorial4.Sub
+gp.fs.0.func.11.nc = nc2
+gp.fs.0.func.12 = ec.app.tutorial4.Mul
+gp.fs.0.func.12.nc = nc2
+
+gp.fs.0.func.13 = ec.app.tutorial4.Sin
+gp.fs.0.func.13.nc = nc1
+
+gp.fs.0.func.14 = ec.app.tutorial4.Cos
+gp.fs.0.func.14.nc = nc1
+
+gp.fs.0.func.15 = ec.app.tutorial4.Tan
+gp.fs.0.func.15.nc = nc1
+
+gp.fs.0.func.16 = ec.app.tutorial4.Exp
+gp.fs.0.func.16.nc = nc1
+
+gp.fs.0.func.17 = ec.app.tutorial4.Log
+gp.fs.0.func.17.nc = nc1
+
+gp.fs.0.func.18 = ec.app.tutorial4.Square
+gp.fs.0.func.18.nc = nc1
+
+gp.fs.0.func.19 = ec.app.tutorial4.Sqrt
+gp.fs.0.func.19.nc = nc1
+
+#gp.fs.0.func.21 = ec.app.tutorial4.Inv
+#gp.fs.0.func.21.nc = nc1
+
+#gp.fs.0.func.20 = ec.app.tutorial4.Cube
+#gp.fs.0.func.20.nc = nc1
+
+#gp.fs.0.func.23 = ec.app.tutorial4.Neg
+#gp.fs.0.func.23.nc = nc1
+
+#gp.fs.0.func.21 = ec.app.tutorial4.Tanh
+#gp.fs.0.func.21.nc = nc1
+
+
+
+#parameters
+generations = 80
+# Subsidiary pipelines:
+pop.subpop.0.species.pipe.num-sources = 3
+pop.subpop.0.species.pipe.source.0 = ec.gp.koza.CrossoverPipeline
+pop.subpop.0.species.pipe.source.0.prob = 0.9
+pop.subpop.0.species.pipe.source.1 = ec.breed.ReproductionPipeline
+pop.subpop.0.species.pipe.source.1.prob = 0.05
+pop.subpop.0.species.pipe.source.2 = ec.gp.koza.MutationPipeline
+pop.subpop.0.species.pipe.source.2.prob = 0.05
+
+
+
+
+
+
+# We set the default for HalfBuilder to be a ramp of 2--6,
+# with a grow probability of 0.5
+gp.koza.half.min-depth = 2
+gp.koza.half.max-depth = 6
+gp.koza.half.growp = 0.5
+# Point Mutation will use Tournament Selection, try only 1
+# time, have a max depth of 17, and use KozaNodeSelector
+# and GROW for building.  Also, Point Mutation uses a GrowBuilder
+# by default, with a default of min-depth=max-depth=5
+# as shown a ways below
+gp.koza.mutate.source.0 = ec.select.TournamentSelection
+gp.koza.mutate.ns.0 = ec.gp.koza.KozaNodeSelector
+gp.koza.mutate.build.0 = ec.gp.koza.GrowBuilder
+gp.koza.mutate.maxdepth = 17
+# This is the default for Koza and lil-gp, though it's
+# a little wimpy; on the other hand, a higher number can
+# make things really slow
+gp.koza.mutate.tries = 1
+
+
+
+
+#
+# The default tournament size for TournamentSelection is 7
+#
+
+select.tournament.size = 7
+
+
+eval.problem = ec.app.tutorial4.MultiValuedRegression
+eval.problem.data = ec.app.tutorial4.DoubleData
+
