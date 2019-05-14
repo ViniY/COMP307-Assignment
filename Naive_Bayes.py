@@ -54,68 +54,73 @@ def counter_spam(train_data):
 
 def likelihoodTable(train_data,spam,nonspam,number_of_attri):
     total_instance = spam+nonspam
-    likelihood_table=[]
+    likelihood_table = []
     prob_table = []
-
+    zeros = 0  # used to check if there is a consequence never happens
     for i in range(number_of_attri):
         c0i0 = 0    # the number of class 0 and this attribute is 0
         c0i1 = 0    # the number of class 0 and this attribute is 1
         c1i0 = 0    # the number of class is 1 and this attribute is 0
         c1i1 = 0    # the number of class is 1 and this attribute is 1
-        zeros = 0   # used to check if there is a consequence never happens
+
         for instance in train_data:
-            if instance[1] == 0 and instance[0][i] == 0:
-                c0i0 +=1
-            if instance[1] == 0 and instance[0][i] == 1:
-                c0i1 +=1
-            if instance[1] == 1 and instance[0][i] == 0:
-                c1i0 +=1
-            if instance[1] == 1 and instance[0][i] == 1:
-                c1i1 +=1
-        likelihood_table.append([c0i0,c0i1,c1i0,c1i1])
+            if instance[1] == '0' and instance[0][i] == '0':
+                c0i0 += 1
+            if instance[1] == '0' and instance[0][i] == '1':
+                c0i1 += 1
+            if instance[1] == '1' and instance[0][i] == '0':
+                c1i0 += 1
+            if instance[1] == '1' and instance[0][i] == '1':
+                c1i1 += 1
         if c0i0 == 0 or c0i1 == 0 or c1i0 == 0 or c1i1 == 0:  # if a sequence never happens
             zeros += 1
+        # print("*******************")
+        # print(c0i0)
+        likelihood_table.append([c0i0,c0i1,c1i0,c1i1])
+
 
     if zeros > 0:
         spam += 1
         nonspam += 1
         new_likehood_table = []
         for i in likelihood_table:
-            i[0] += 1
-            i[1] += 1
-            i[2] += 1
-            i[3] += 1
-            new_likehood_table.append([i[0], i[1], i[2], i[3]])
+            c0i0 = i[0] + 1
+            c0i1 = i[1] + 1
+            c1i0 = i[2] + 1
+            c1i1 = i[3] + 1
+            print(c1i1)
+            new_likehood_table.append([c0i0, c0i1, c1i0, c1i1])
         likelihood_table = new_likehood_table
     for i in likelihood_table:
         prob_table.append([float(i[0])/nonspam, float(i[1])/nonspam, float(i[2])/spam, float(i[3])/spam])
 
     for i in range(number_of_attri):
-        print("P(F{} = 1| C = 1) = {}".format(i, prob_table[i][0]))
+        print("P(F{} = 0| C = 0) = {}".format(i, prob_table[i][0]))
         print("P(F{} = 0| C = 1) = {}".format(i, prob_table[i][1]))
         print("P(F{} = 1| C = 0) = {}".format(i, prob_table[i][2]))
-        print("P(F{} = 0| C = 0) = {}".format(i, prob_table[i][3]))
+        print("P(F{} = 1| C = 1) = {}".format(i, prob_table[i][3]))
         print("\n")
     return likelihood_table,prob_table,spam , nonspam
 
 
-def classifier(test_data, prob_table, spam, nospam):
+def classifier(test_data, prob_table, spam, nonspam):
+    total = spam + nonspam
     for instance in test_data:
-        a = float(spam) / (spam + nospam)
-        b = float(nospam) / (spam + nospam)
+        a = float(spam) / (total)
+        b = float(nonspam) / (total)
         for i in range(12):
             if instance[i] == '1':
-                a *= prob_table[i][0]
-                b *= prob_table[i][2]
+                a *= prob_table[i][3]
+                b *= prob_table[i][1]
             else:
-                a *= prob_table[i][1]
-                b *= prob_table[i][3]
+                a *= prob_table[i][2]
+                b *= prob_table[i][0]
         if a > b:
-            print('Score(spam) is {}, Score(non-spam) is {}.'.format(a, b))
+            print("Probability for Spam  is {},Probability for non-spam is {}.".format(a, b))
             print(instance, 'spam')
         else:
-            print('Score(spam) is {}, Score(non-spam) is {}.'.format(a, b))
-            print(instance, 'nospam')
+            print("Probability for Spam  is {},Probability for non-spam is {}.".format(a, b))
+            print(instance, 'non-spam')
 
 
 def main():
@@ -129,8 +134,8 @@ def main():
     likelihood_table,prob_table,spam,nonspam = likelihoodTable(train_data,spam_number,nonspam_number,number_of_attri)
     spam_number = spam
     nonspam_number = nonspam
-    print(spam_number)
-    print(nonspam_number)
+    # print(spam_number, "aaa")
+    # print(nonspam_number)
     classifier(test_data,prob_table, spam, nonspam)
 
 
