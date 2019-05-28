@@ -105,9 +105,12 @@ def likelihoodTable(train_data,spam,nonspam,number_of_attri):
 
 def classifier(test_data, prob_table, spam, nonspam):
     total = spam + nonspam
+    result = []
+    counter = 0
     for instance in test_data:
         a = float(spam) / (total)
         b = float(nonspam) / (total)
+        counter +=1
         for i in range(12):
             if instance[i] == '1':
                 a *= prob_table[i][3]
@@ -117,10 +120,13 @@ def classifier(test_data, prob_table, spam, nonspam):
                 b *= prob_table[i][0]
         if a > b:
             print("Probability for Spam  is {},Probability for non-spam is {}.".format(a, b))
-            print(instance, 'spam')
+            print("Instance :", counter ," is ","       ",instance, 'spam')
+            result.append(" spam")
         else:
             print("Probability for Spam  is {},Probability for non-spam is {}.".format(a, b))
-            print(instance, 'non-spam')
+            print("Instance :", counter ," is ","       ",instance, 'non -spam')
+            result.append(" non-spam")
+    return result
 
 
 def main():
@@ -136,7 +142,15 @@ def main():
     nonspam_number = nonspam
     # print(spam_number, "aaa")
     # print(nonspam_number)
-    classifier(test_data,prob_table, spam, nonspam)
+    result = classifier(test_data,prob_table, spam, nonspam)
+    file1 = open("result.txt","w")
+    for i in range(len(result)):
+        file1.write("Instance ")
+        file1.write(str(i))
+        file1.write(" is ")
+        file1.write(str(result[i]))
+        file1.write('\n')
+    file1.close()
 
 
 if __name__ == '__main__':
