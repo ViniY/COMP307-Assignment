@@ -1,0 +1,19 @@
+setosa	Correct	versicolor	InCorrect	versicolor	InCorrect	versicolor	InCorrect	
+setosa	Correct	versicolor	InCorrect	setosa	Correct	
+setosa	Correct	setosa	Correct	versicolor	InCorrect	
+setosa	Correct	versicolor	InCorrect	versicolor	InCorrect	
+setosa	Correct	setosa	Correct	setosa	Correct	
+setosa	Correct	setosa	Correct	versicolor	InCorrect	
+versicolor	Correct	versicolor	Correct	versicolor	Correct	
+versicolor	Correct	versicolor	Correct	versicolor	Correct	
+versicolor	Correct	versicolor	Correct	versicolor	Correct	
+versicolor	Correct	versicolor	Correct	versicolor	Correct	
+versicolor	Correct	versicolor	Correct	versicolor	Correct	
+versicolor	Correct	versicolor	Correct	versicolor	Correct	
+versicolor	Correct	versicolor	InCorrect	versicolor	InCorrect	
+versicolor	InCorrect	versicolor	InCorrect	versicolor	InCorrect	
+versicolor	InCorrect	versicolor	InCorrect	versicolor	InCorrect	
+versicolor	InCorrect	versicolor	InCorrect	versicolor	InCorrect	
+versicolor	InCorrect	versicolor	InCorrect	versicolor	InCorrect	
+versicolor	InCorrect	versicolor	InCorrect	versicolor	InCorrect	
+versicolor	InCorrect	versicolor	InCorrect	
