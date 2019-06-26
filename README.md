@@ -6,4 +6,4 @@ Assignment 2 which is the assignment based on GP, the code part was done in Java
 Assigment 3 the code part was done in Python (Very short)
 Assigment 4 incldues no code.
 
-You are more than welcome to look into my code, but dont just copy and paste, it do no goods to your own study.
+You are more than welcome to look into my code, but dont just copy and paste, it does no goods to your own study.
